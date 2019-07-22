@@ -1,5 +1,5 @@
 #
-# Makefile for C++ NISE-SPR project.
+# Makefile for C++ NISE-SPH project.
 # @author Guilherme Oliveira Chagas (guilherme.o.chagas[a]gmail.com)
 # @date 21/07/2019
 
@@ -14,7 +14,7 @@ LDLIBS = -fopenmp -lstdc++fs
 SRC_DIR = ./source
 HDR_DIR = ./headers
 OBJ_DIR = ./obj
-OUT_BIN = nise_spr
+OUT_BIN = nise_sph
 
 SRCS = $(shell find . -type f -name '*.cpp')
 

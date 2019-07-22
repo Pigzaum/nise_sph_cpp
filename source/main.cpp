@@ -2,12 +2,12 @@
  * File: main.cpp
  *
  * @brief A C++ implementation of the Neighborhood-Inflated Seed Expansion with
- * seeds by the Spread Hubs method (NISE-SPR) [1]. See the README.md file for
+ * seeds by the Spread Hubs method (NISE-SPH) [1]. See the README.md file for
  * compiling and run instructions.
  * @author Guilherme Oliveira Chagas (guilherme.o.chagas[a]gmail.com)
- * @disclaimer Note that I am not a NISE-SPR author, so this NISE-SPR version
+ * @disclaimer Note that I am not a NISE-SPH author, so this NISE-SPH version
  * may has errors and/or discrepancies with the actual Whang, Gleich and Dhillon
- * [1] NISE-SPR algorithm.
+ * [1] NISE-SPH algorithm.
  * @date This file was created on July 21, 2019, 02:07 PM.
  * @acknowledgment A special thanks to Ph.D. Luis Antonio Nogueira Lorena and
  * Ph.D. Rafael Duarte Coelho dos Santos.
@@ -20,8 +20,8 @@
  */
 
 
-#include "../headers/graph.hpp"
 #include "../headers/nise_parameters.hpp"
+#include "../headers/nise.hpp"
 
 
 int main(int argc, char** argv)
@@ -35,9 +35,9 @@ int main(int argc, char** argv)
     }
 
     Graph g(params.get_graph_path());
-    // Lecm lecm(param, g);
-    // lecm.execute();
-    // lecm.write_clustering();
+    Nise nise(g, params);
+    nise.execute();
+    nise.write_clustering();
 
     return EXIT_SUCCESS;
 }

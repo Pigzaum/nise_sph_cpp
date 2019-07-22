@@ -2,7 +2,7 @@
  * File: nise_parameters.cpp
  * Author: Guilherme O. Chagas
  *
- * @brief NISE-SPR [1] parameters implementation.
+ * @brief NISE-SPH [1] parameters implementation.
  * 
  * (I'm sorry for my bad english xD)
  *

@@ -2,7 +2,7 @@
  * File: nise_parameters.hpp
  * Author: Guilherme O. Chagas
  *
- * @brief NISE-SPR [1] parameters header.
+ * @brief NISE-SPH [1] parameters header.
  * 
  * (I'm sorry for my bad english xD)
  *
@@ -37,19 +37,19 @@ public:
     ~Nise_parameters() = default;
 
     /**
-     * @brief Get the NISE-SPR [1] parameter alpha.
+     * @brief Get the NISE-SPH [1] parameter alpha.
      * @return double: alpha.
      */
     double alpha() const;
 
     /**
-     * @brief Get the NISE-SPR [1] parameter epsilon.
+     * @brief Get the NISE-SPH [1] parameter epsilon.
      * @return double: epsilon.
      */
     double epsilon() const;
 
     /**
-     * @brief Get the NISE-SPR [1] parameter number of seeds.
+     * @brief Get the NISE-SPH [1] parameter number of seeds.
      * @return unsigned int: number of seeds.
      */
     unsigned int nb_of_seeds() const;
