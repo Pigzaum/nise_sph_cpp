@@ -1,6 +1,6 @@
 # A Neighborhood-Inflated Seed Expansion with SPHead Hubs C++ implementation
 
-A C++ implementation of the Neighborhood-Inflated Seed Expansion with SPHead Hubs method (NISE-SPH) [[1](#references)] algorithm. The NISE-SPH is an overlapping community detection algorithm proposed by Whang, Gleich and Dhillon (2019) [[1](#references)].
+A C++ implementation of the Neighborhood-Inflated Seed Expansion with Spread Hubs method (NISE-SPH) [[1](#references)] algorithm. The NISE-SPH is an overlapping community detection algorithm proposed by Whang, Gleich and Dhillon (2019) [[1](#references)].
 
 Since I am not a NISE-SPH author, I tried to made this implementation as close as possible to the algorithm description provided by the authors in [[1](#references)].
 
